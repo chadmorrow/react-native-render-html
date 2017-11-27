@@ -43,12 +43,12 @@ export default class HTMLImage extends PureComponent {
         let styleWidth;
         let styleHeight;
 
-        if (height) {
-            styleHeight = height;
-        }
-        if (width) {
-            styleWidth = width;
-        }
+        //if (height) {
+        //    styleHeight = height;
+        //}
+        //if (width) {
+        //    styleWidth = width;
+        //}
         style.forEach((styles) => {
             if (!width && styles['width']) {
                 styleWidth = styles['width'];
